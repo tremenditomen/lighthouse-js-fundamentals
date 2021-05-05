@@ -1,4 +1,4 @@
-let ageCalculator = (name,born , currentYear) => {
+let ageCalculator = (name, born, currentYear) => {
   return name + " is " + (currentYear - born) + " years old.";
 };
 
