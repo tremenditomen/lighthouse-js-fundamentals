@@ -1,6 +1,11 @@
-const chorus = "lests dance! ";
-
-for (let repeat = 0; repeat < 10; repeat++) {
-  console.log(chorus);
+for (let i = 100;i <= 200;i ++ ){
+  if (i % 3 && i === 0 ){
+    console.log("Loopy")
+  }
+  else if(i % 4 && i ===0){
+    console.log("Lighthouse")
+  }
+  else if (i % 3 && i === 0 && i % 4 && i===0 ){
+    console.log("LoopyLighthouse")
+  }
 }
-console.log("until the sun comes out!");
