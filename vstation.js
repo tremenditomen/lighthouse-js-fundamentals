@@ -6,7 +6,7 @@ const stations = [
   ["E", 50, "restaurant"],
   ["F", 20, "school"],
   ["G", 40, "community centre"],
-  ["H", 50, "school"],
+  ["H", 50, "school"]
 ];
 function chooseStations(stations) {
   const goodStations = [];
