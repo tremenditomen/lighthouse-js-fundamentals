@@ -1,6 +1,17 @@
-let total = 0
-const amounts = [61.00, 52.25, 112.9, 5.0];
-for(let amount of amounts){
-  total+= amount
-}
-console.log('order total is: ', total);
+let range = (start, end, step) => {
+  let arr = [];
+
+  if (start === undefined || end === undefined || step === undefined) {
+    let arr = [];
+  } else if (start > end) {
+    let arr = [];
+  } else if (step <= 0) {
+    let arr = [];
+  } else {
+    for (let i = start; i <= end; i += step) {
+      arr.push(i);
+    }
+  }
+  return arr;
+};
+console.log(range(11, 10, 2));
